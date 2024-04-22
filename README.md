@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 2.  Navigate to the project directory:
 3.  Install dependencies:
   ```bash
-   git clone https://github.com/your-username/Android-Club.git
+   npm install
 ```
 5.  It is hosted on https://localhost:3000
    ```bash
