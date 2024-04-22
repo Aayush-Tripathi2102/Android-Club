@@ -15,7 +15,7 @@ app.get('/', function(req, res){
 app.post('/', function(req, res){
 
     // res.sendFile(__dirname + "/weather.html");
-    const apiKey = process.env.APIkey;
+    const apiKey = process.env.secretkey;
     const url = "https://api.openweathermap.org/data/2.5/weather?q=Chennai,india&appid="+apiKey;
     https.get(url, function(response){
         console.log(response.statusCode);
