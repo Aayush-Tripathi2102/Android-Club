@@ -1,0 +1,118 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0ad006;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navbar-logo-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar-drawer {
+    display: flex;
+    align-items: center;
+}
+
+.drawer-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.drawer-name {
+    display: flexbox;
+    font-size: 1rem;
+}
+
+.drawer-name1 {
+    display: flexbox;
+    font-size: 2rem;
+}
+
+.navbar-notification-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+    background-color: #0ad006;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.welcome-title{
+    font-size: 2.5rem;
+    color:rgb(0, 0, 0);
+}
+
+.welcome-content{
+    margin: 30px 50px;
+    font-size: 1.2rem;
+}
+
+.navigate-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.navigate-button:hover {
+    background-color: #1d1d1d;
+}
+
+.about-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-drawer {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-notification {
+        margin-top: 10px;
+    }
+
+    .navbar-notification-icon {
+        font-size: 1.5rem;
+    }
+}
